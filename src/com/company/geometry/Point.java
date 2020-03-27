@@ -10,11 +10,9 @@ final public class Point {
     }
 
     public Point(){
-        x = 1;
-        y = 1;
+        this.x = 1;
+        this.y = 1;
     }
-
-
 
     public double getX(){
         return x;

@@ -14,8 +14,7 @@ public class Main {
         car.drive(500);
         car.drive(100);
         System.out.println(car.getDistance()+" "+car.getFuel());
+        System.out.println(car.getDistance());
         System.out.println(car);
     }
-
-
 }

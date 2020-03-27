@@ -1,6 +1,6 @@
 package com.company.vehicle;
 
-
+//class Car does not have to be a finale since this class describes a specific car, not abstract point on the plane.
 public class Car {
     private double milesOnGallon;
     private final double  startX = 0;
@@ -54,8 +54,6 @@ public class Car {
     public double getDistance(){
         return x - startX;
     }
-
-
 
     @Override
     public String toString() {
